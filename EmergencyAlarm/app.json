@@ -1,0 +1,42 @@
+{
+  "configVersion": "v1",
+  "app": {
+    "appId": 20001,
+    "appName": "Emergency Alarm",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "2.1.2"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Emergency alarm that vibrates on the first press then sounds an alarm on the second"
+  },
+  "permissions": [
+    "data:os.device.info",
+    "device:os.local_storage",
+    "data:user.hd.calorie"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "2.0",
+      "target": "2.0",
+      "minVersion": "2.0"
+    }
+  },
+  "targets": {
+    "gts": {
+      "platforms": [
+        {
+          "name": "gts4",
+          "deviceSource": 7995648
+        },
+        {
+          "name": "gts4-w",
+          "deviceSource": 7995649
+        }
+      ],
+      "designWidth": 390
+    }
+  }
+}
